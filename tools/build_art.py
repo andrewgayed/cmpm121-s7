@@ -89,7 +89,7 @@ def srgb(hex_code):
 def make_materials():
     """One material per voxel character. Runs after reset_scene(), which would erase them."""
     PALETTE.update({
-        "#": pbr_material("Scales", "#2f9e5b", metallic=0.2, roughness=0.45),
+        "#": pbr_material("Scales", "#cf1518", metallic=0.2, roughness=0.45),
         "*": pbr_material("Gold", "#f2bf3a", metallic=1.0, roughness=0.3),
         "e": pbr_material("Eye", "#ffb22e", emission="#ffa21a", strength=4.0),
         "o": pbr_material("Ember", "#ff6a1a", emission="#ff4a08", strength=3.0),
